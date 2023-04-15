@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    margin-top: 10%;
+    background-color: lavender;
+}
+
+#input{
+    display: block;
+    margin: 50px auto 10px;
+    padding: 5px 2px;
+}
+
+#addButton, #removeButton{
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid black;
+    margin: 20px 10px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#addButton:hover, #removeButton:hover{
+    background-color: lavender;
+    color: black;
+    border: 1px solid black;
+}
+
+#list{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+h5{
+    margin-bottom: 0;
+}
